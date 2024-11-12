@@ -1,0 +1,238 @@
+
+**** 11/12/24 18:40:19 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Bucla"  [ C:\Proiect 1\P1_2024_434D_Fraticiu_Vlad (1)\P1_2024_434D_Fraticiu_Vlad\Bucla deschisa\Bucla Deschi
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Bucla.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc807-25.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c10.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/irfr120npbf.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mjd31cg.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mjd32cg.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj309lt1g.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/opto.lib" 
+* From [PSPICE NETLIST] section of C:\Users\frati\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 1 100k
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source BUCLA DESCHISA
+X_R27         N68737 N69348 N68471 POT PARAMS: SET={Pot_SET} VALUE=10k
+R_R39         N68415 N68175  51 TC=0,0 
+Q_Q20         N68463 N68283 N67889 QBC856B 
+R_R38         N68175 N68011  220 TC=0,0 
+R_R37         N68401 N67889  680 TC=0,0 
+Q_Q23         N68137 N67979 N68011 QBC846B 
+Q_Q19         N68463 N68519 N68873 QBC846B 
+Q_Q18         N68283 N68519 N68727 QBC846B 
+D_D6         0 N68519 BZX84-C5V1 
+Q_Q17         N68261 N68261 N67889 QBC856B 
+Q_Q16         N68283 N68261 N67889 QBC856B 
+X_D10         N68415 0 LED PARAMS: IS=5.6404e-29 RS=2  BV=5 IBV=10e-6         
+R_R1         0 N68273  3.3k TC=0,0 
+X_D9         N68401 0 LED PARAMS: IS=5.6404e-29 RS=2  BV=5 IBV=10e-6         
+R_R32         N68957 N68519  15k TC=0,0 
+V_V1         N67889 0 22
+R_R28         N68471 N68297  1.5k TC=0,0 
+Q_Q6         N68727 N68519 N68833 QBC846B 
+R_R31         N68005 N68011  0.47 TC=0,0 
+X_R36         N68957 N69065 0 POT PARAMS: SET=0.451 VALUE=5k
+R_R3         0 N68833  2.2k TC=0,0 
+R_R30         N67979 N68005  1 TC=0,0 
+R_R7         0 N68873  440 TC=0,0 
+D_D7         N68273 N67889 BZX84-C5V1 
+Q_Q5         N68519 N68273 N68181 QBC807-25 
+Q_Q26         N68137 N69065 0 QBC846B 
+R_R8         0 N68737  10k TC=0,0 
+R_R2         N68181 N67889  820 TC=0,0 
+Q_Q29         N67979 N68045 N67889 QMJD32CT4G 
+Q_Q7         N68261 N69344 N68727 QBC846B 
+R_R16         N68297 N68011  68 TC=0,0 
+R_R22         N68011 0  {Rload} TC=0,0 
+R_R34         N68463 N68137  1.5k TC=0,0 
+Q_Q25         N68045 N68137 N67979 QBC846B 
+L_L1         N69344 N69348  0.1  TC=0,0 
+V_V2         N69581 0 DC 0Vdc AC 1Vac 
+C_C1         N69581 N69344  0.1  TC=0,0 
+.PARAM  pot_set=1 rload=440
+
+**** RESUMING Bucla.cir ****
+.END
+
+**** 11/12/24 18:40:19 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Bucla"  [ C:\Proiect 1\P1_2024_434D_Fraticiu_Vlad (1)\P1_2024_434D_Fraticiu_Vlad\Bucla deschisa\Bucla Deschi
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BZX84-C5V1      X_D10.model201  X_D9.model201   
+          IS    2.666500E-18   56.404000E-30   56.404000E-30 
+           N     .82284         2               2            
+         ISR  150.400000E-12                                 
+         IKF     .01176                                      
+          BV    5.176           5               5            
+         IBV     .10454        10.000000E-06   10.000000E-06 
+          RS     .51617         2               2            
+          TT   43.858000E-09                                 
+         CJO  232.290000E-12                                 
+          VJ     .79587                                      
+           M     .35004                                      
+
+
+**** 11/12/24 18:40:19 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Bucla"  [ C:\Proiect 1\P1_2024_434D_Fraticiu_Vlad (1)\P1_2024_434D_Fraticiu_Vlad\Bucla deschisa\Bucla Deschi
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC807-25       QBC846B         QBC856B         QMJD32CT4G      
+               PNP             NPN             PNP             PNP             
+       LEVEL    1               1               1               1            
+          IS  108.000000E-15   18.220000E-15   20.140000E-15  363.152000E-15 
+          EG                                                    1.15135      
+          BF  385.7           324.4           315.3           272.001        
+          NF     .99             .9932           .9974           .981175     
+         VAF   31.29           82              39.15            8.02311      
+         IKF     .3603           .109            .079            .255979     
+         ISE   27.130000E-15  289.400000E-18    6.578000E-15    1.395810E-09 
+          NE    1.4             1.4             1.45            2.64418      
+          BR   20.57            8.29            8.68           26.8791       
+          NR     .9849           .9931           .9952           .990094     
+         VAR   11.62           17.9             9.5            38.8632       
+         IKR     .054            .09             .09            2.55979      
+         ISC  506.200000E-15    9.982000E-12   16.330000E-15  254.712000E-15 
+          NC    1.295           1.763           1.15            1.09617      
+         ISS    0               0               0               0            
+          RB    1              10              10             210.108        
+         RBM     .5             5               5.000000E-06   10.000000E-06 
+         IRB    1.000000E-06    5.000000E-06    5.000000E-06   13.167500E-06 
+          RE     .1415           .649            .663            .03296      
+          RC     .2623           .7014           .718            .164799     
+         CJE   51.140000E-12   12.440000E-12   11.350000E-12  201.825000E-12 
+         VJE     .8911           .7579           .7071           .360096     
+         MJE     .4417           .3656           .3808           .350357     
+         CJC   26.560000E-12    3.347000E-12    6.395000E-12  118.774000E-12 
+         VJC     .62             .5463           .4951           .694849     
+         MJC     .4836           .391            .44             .382715     
+        XCJC     .459            .6193           .6288           .778775     
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+         MJS     .333            .333            .333            .5          
+          FC     .99             .979            .9059           .9          
+          TF  735.900000E-12  490.800000E-12  654.600000E-12    3.622020E-09 
+         XTF    1.859           9.51            5.387         276.075        
+         VTF    3.813           2.927           6.245            .608188     
+         ITF     .4393           .3131           .2108          7.779510E-03 
+          TR   50.000000E-09   90.000000E-09   55.000000E-09    2.029570E-06 
+         XTB                                                     .709265     
+         XTI                                                    4.43052      
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.2             2.42            2.2             2.2          
+           D     .52             .87             .52             .52         
+
+
+**** 11/12/24 18:40:19 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Bucla"  [ C:\Proiect 1\P1_2024_434D_Fraticiu_Vlad (1)\P1_2024_434D_Fraticiu_Vlad\Bucla deschisa\Bucla Deschi
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N67889)   22.0000 (N67979)   11.1070 (N68005)   11.0530 (N68011)   11.0270     
+
+(N68045)   21.3580 (N68137)   11.6840 (N68175)    4.7043 (N68181)   17.5240     
+
+(N68261)   21.3640 (N68273)   16.8990 (N68283)   21.3000 (N68297)   10.9920     
+
+(N68401)    3.2342 (N68415)    3.2385 (N68463)   11.8390 (N68471)   10.2240     
+
+(N68519)    5.1001 (N68727)    4.4691 (N68737)    5.0994 (N68833)    4.4342     
+
+(N68873)    4.3981 (N68957)    1.2745 (N69065)     .5745 (N69344)    5.0994     
+
+(N69348)    5.0994 (N69581)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.044E-01
+    V_V2         0.000E+00
+
+    TOTAL POWER DISSIPATION   2.30E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/12/24 18:40:19 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Bucla"  [ C:\Proiect 1\P1_2024_434D_Fraticiu_Vlad (1)\P1_2024_434D_Fraticiu_Vlad\Bucla deschisa\Bucla Deschi
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+
