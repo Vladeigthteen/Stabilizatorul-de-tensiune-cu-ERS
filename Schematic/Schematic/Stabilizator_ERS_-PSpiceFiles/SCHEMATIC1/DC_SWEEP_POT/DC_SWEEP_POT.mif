@@ -1,7 +1,0 @@
- lib="C:\Proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib", offset=480, size=667
- lib="C:\Proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib", offset=476, size=771
- lib="C:\Proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib", offset=475, size=781
- lib="C:\Proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib", offset=471, size=191
- lib="C:\Proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib", offset=497, size=520
- lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\breakout.lib, offset=9201, size=133
- lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\PSpiceModelApps.lib, offset=125, size=215
