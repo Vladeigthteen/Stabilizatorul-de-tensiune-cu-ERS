@@ -1,0 +1,33 @@
+Stabilizator de tensiune cu ERS  Revised: Saturday, November 16, 2024
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials       November 17,2024      11:17:48	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	2	D6,D7	BZX84-C5V1
+2	2	D9,D10	5V,LED,LED
+3	1	Q5	QBC807-25
+4	7	Q6,Q7,Q18,Q19,Q23,Q25,Q26	QBC846B
+5	3	Q16,Q17,Q20	QBC856B
+6	1	Q29	QMJD32CT4G
+7	1	R1	3.3k
+8	1	R2	820
+9	1	R3	2.2k
+10	6	R7,R22,R39,R43,R46,R47	220
+11	2	R8,R27	10k
+12	1	R16	68
+13	2	R28,R34	1.5k
+14	1	R30	1
+15	1	R31	0.47
+16	1	R32	15k
+17	1	R36	5k
+18	3	R37,R44,R45	330
+19	3	R40,R41,R42	100

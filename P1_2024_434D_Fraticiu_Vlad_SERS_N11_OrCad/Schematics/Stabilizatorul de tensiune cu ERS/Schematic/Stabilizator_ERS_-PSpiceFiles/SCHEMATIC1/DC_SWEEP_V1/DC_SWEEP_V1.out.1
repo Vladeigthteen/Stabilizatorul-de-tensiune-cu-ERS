@@ -1,0 +1,96 @@
+
+**** 11/16/24 12:09:20 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-DC_SWEEP_V1"  [ C:\Proiect 1\P1_Fraticiu_Vlad_2024_423D\Schematic\Schematic\stabilizator_ers_-pspicefiles\sc
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "DC_SWEEP_V1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc807-25.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c10.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/irfr120npbf.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mjd31cg.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mjd32cg.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj309lt1g.lib" 
+* From [PSPICE NETLIST] section of C:\Users\frati\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 1 100M
+--------------$
+ERROR(ORPSIM-16103): Invalid value
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source STABILIZATOR_ERS_
+R_R34         N58477 N58211  1.5k TC=0,0 
+R_R1         0 N58341  3.3k TC=0,0 
+R_R16         N58365 N58115  68 TC=0,0 
+Q_Q20         N58477 N58351 N58019 QBC856B 
+D_D6         0 N58533 BZX84-C5V1 
+Q_Q16         N58351 N58329 N58019 QBC856B 
+Q_Q18         N58351 N58533 N58697 QBC846B 
+Q_Q26         N58211 N64633 0 QBC846B 
+Q_Q7         N58329 N58691 N58697 QBC846B 
+R_R32         N62642 N58533  15k TC=0,0 
+R_R3         0 N58791  2.2k TC=0,0 
+R_R7         0 N58833  440 TC=0,0 
+R_R31         N58109 N58115  0.47 TC=0,0 
+R_R28         N58485 N58365  1.5k TC=0,0 
+Q_Q29         N58083 N58141 N58019 QMJD32CT4G 
+Q_Q17         N58329 N58329 N58019 QBC856B 
+Q_Q5         N58533 N58341 N58249 QBC807-25 
+D_D7         N58341 N58019 BZX84-C5V1 
+X_R27         N58707 N58691 N58485 POT PARAMS: SET={Pot_SET} VALUE=10k
+V_V1         N58019 0 19.8
+Q_Q19         N58477 N58533 N58833 QBC846B 
+R_R2         N58249 N58019  820 TC=0,0 
+R_R22         N58115 0  {Rload} TC=0,0 
+R_R8         0 N58707  10k TC=0,0 
+Q_Q6         N58697 N58533 N58791 QBC846B 
+Q_Q23         N58211 N58083 N58115 QBC846B 
+R_R30         N58083 N58109  1 TC=0,0 
+Q_Q25         N58141 N58211 N58083 QBC846B 
+X_R36         N62642 N64633 0 POT PARAMS: SET=0.452 VALUE=5k
+X_D9         N70066 0 LED PARAMS: IS=5.6404e-29 RS=2  BV=5 IBV=10e-6         
+R_R37         N70062 N70320  330 TC=0,0 
+X_D10         N73472 0 LED PARAMS: IS=5.6404e-29 RS=2  BV=5 IBV=10e-6         
+R_R39         N73472 N69956  220 TC=0,0 
+R_R40         N69761 N58115  100 TC=0,0 
+R_R41         N69952 N69761  100 TC=0,0 
+R_R42         N69956 N69952  100 TC=0,0 
+R_R43         N70066 N70062  220 TC=0,0 
+R_R44         N70316 N58019  330 TC=0,0 
+R_R45         N70320 N70316  330 TC=0,0 
+.PARAM  pot_set=1 rload=440
+
+**** RESUMING DC_SWEEP_V1.cir ****
+.END
+

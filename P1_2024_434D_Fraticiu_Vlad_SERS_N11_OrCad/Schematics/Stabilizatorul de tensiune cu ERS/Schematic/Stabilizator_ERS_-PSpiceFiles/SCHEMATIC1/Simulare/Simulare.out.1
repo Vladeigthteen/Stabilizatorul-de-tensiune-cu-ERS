@@ -1,0 +1,87 @@
+
+**** 11/05/24 22:37:25 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Simulare"  [ C:\P1_2024_434D_Fraticiu_Vlad\Schematic\stabilizator_ers_-pspicefiles\schematic1\simulare.sim ]
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Simulare.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc807-25.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c10.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/irfr120npbf.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mjd31cg.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mjd32cg.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj309lt1g.lib" 
+.LIB "c:/proiect 1/lib_modelepspice_anexa_1/modele_a1_lib/opto.lib" 
+* From [PSPICE NETLIST] section of C:\Users\frati\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+--------------------------------------------------------------------$
+ERROR(ORPSIM-16276): Can't find library
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM Pot_SET 0 1 0.01 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source STABILIZATOR_ERS_
+R_R34         N58477 N58211  1k TC=0,0 
+R_R1         0 N58341  3.3k TC=0,0 
+R_R16         N58365 N58115  68 TC=0,0 
+Q_Q20         N58477 N58351 N58009 QBC856B 
+D_D6         0 N58533 BZX84-C5V1 
+Q_Q16         N58351 N58329 N58009 QBC856B 
+Q_Q18         N58351 N58533 N58697 QBC846B 
+Q_Q26         N58211 N58917 0 QBC846B 
+Q_Q7         N58329 N58691 N58697 QBC846B 
+R_R32         N58917 N58533  15k TC=0,0 
+R_R3         0 N58791  4.3k TC=0,0 
+R_R7         0 N58833  440 TC=0,0 
+R_R35         0 N58917  2k TC=0,0 
+R_R31         N58109 N58115  0.47 TC=0,0 
+R_R28         N58485 N58365  1.5k TC=0,0 
+Q_Q29         N58083 N58141 N58009 QMJD32CT4G 
+Q_Q17         N58329 N58329 N58009 QBC856B 
+Q_Q5         N58533 N58341 N58249 QBC807-25 
+D_D7         N58341 N58009 BZX84-C5V1 
+X_R27         N58485 N58691 N58707 POT PARAMS: SET={Pot_SET} VALUE=10k
+V_V1         N58009 0 22
+Q_Q19         N58477 N58533 N58833 QBC846B 
+R_R2         N58249 N58009  820 TC=0,0 
+R_R22         N58115 0  {Rload} TC=0,0 
+R_R8         0 N58707  10k TC=0,0 
+Q_Q6         N58697 N58533 N58791 QBC846B 
+Q_Q23         N58211 N58083 N58115 QBC846B 
+R_R30         N58083 N58109  1 TC=0,0 
+Q_Q25         N58141 N58211 N58083 QBC846B 
+.PARAM  pot_set=1 rload=440
+
+**** RESUMING Simulare.cir ****
+.END
+
