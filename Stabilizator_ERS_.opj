@@ -1,0 +1,359 @@
+(ExpressProject "Stabilizator_ERS_"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 P001 (4234998)  [9/4/2024]-[12/04/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "EDIF Netlist")))
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\stabilizator_ers_.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\stabilizator_ers_.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (BOM_Scope "1")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\P1_copy\BOM.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "C:\P1_FINAL\P1_2024_434D_FRATICIU_VLAD_SERS_N11_ORCAD\SCHEMATICS\SCHEMATIC\STABILIZATOR_ERS_.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "TRUE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Layout"
+    (File ".\allegro\stabilizator_ers_.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\stabilizator_ers_.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\stabilizator_ers_-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (Sort User)
+    (File ".\STABILIZATOR_ERS__OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\STABILIZATOR_ERS__OUTPUT\BOM.SCH.CSV"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File "c:\p1_copy\bom.bom"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\stabilizator_ers_-pspicefiles\schematic1\dc_sweep_pot.sim"
+        (DisplayName "SCHEMATIC1-DC_SWEEP_POT")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\stabilizator_ers_-pspicefiles\schematic1\dc_sweep_v1.sim"
+        (DisplayName "SCHEMATIC1-DC_SWEEP_V1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\stabilizator_ers_-pspicefiles\schematic1\biaspoint.sim"
+        (DisplayName "SCHEMATIC1-BiasPoint")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\stabilizator_ers_-pspicefiles\schematic1\temperatura.sim"
+        (DisplayName "SCHEMATIC1-Temperatura")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\stabilizator_ers_-pspicefiles\schematic1\sarcina.sim"
+        (DisplayName "SCHEMATIC1-Sarcina")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\stabilizator_ers_-pspicefiles\schematic1\biaspoint.sim"))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "C:\P1_copy\P1_2024_434D_Fraticiu_Vlad_SERS_N11_OrCad\Schematics\Stabilizatorul de tensiune cu ERS\Schematic\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "C:\P1_copy\P1_2024_434D_Fraticiu_Vlad_SERS_N11_OrCad\Schematics\Stabilizatorul de tensiune cu ERS\Schematic\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "C:\P1_copy\P1_2024_434D_Fraticiu_Vlad_SERS_N11_OrCad\Schematics\Stabilizatorul de tensiune cu ERS\Schematic\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile
+         "C:\P1_copy\P1_2024_434D_Fraticiu_Vlad_SERS_N11_OrCad\Schematics\Stabilizatorul de tensiune cu ERS\Schematic\allegro\genfeed.log")))
+  (PartMRUSelector
+    (OF-SMD2012B
+      (FullPartName "OF-SMD2012B.Normal")
+      (LibraryName "C:\P1_BACKUP\FOOTPRINT\OF-SMD2012B.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName
+         "C:\PROIECT 1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\1N4148.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C5V1
+      (FullPartName "BZX84-C5V1.Normal")
+      (LibraryName
+         "C:\PROIECT 1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BZX84C5V1.OLB")
+      (DeviceIndex "0"))
+    (QMJD32CT4G
+      (FullPartName "QMJD32CT4G.Normal")
+      (LibraryName
+         "C:\PROIECT 1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\MJD32CG.OLB")
+      (DeviceIndex "0"))
+    (0805S8F2200T5E
+      (FullPartName "0805S8F2200T5E.Normal")
+      (LibraryName "C:\P1_BACKUP\FOOTPRINT\0805S8F2200T5E.OLB")
+      (DeviceIndex "0"))
+    (MJD32CG
+      (FullPartName "MJD32CG.Normal")
+      (LibraryName "C:\P1_BACKUP\FOOTPRINT\MJD32CG.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C5V1,215
+      (FullPartName "BZX84-C5V1,215.Normal")
+      (LibraryName "C:\P1_BACKUP\FOOTPRINT\BZX84-C5V1_215.OLB")
+      (DeviceIndex "0"))
+    (BC856
+      (FullPartName "BC856.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\INFINEON_S_AFBJT.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON1
+      (FullPartName "CON1.Normal")
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (Constant_16
+      (FullPartName "Constant_16.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\PWLCOMPS.OLB")
+      (DeviceIndex "0"))
+    (kbreak
+      (FullPartName "kbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICESOURCEAPP\HYBRID\SUPPORTFILES\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (TitleBlock0
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICEMODELAPP\LED\HYBRID\SUPPORTFILES\LED.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MLED81
+      (FullPartName "MLED81.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\OPTO.OLB")
+      (DeviceIndex "0"))
+    (LD274-3
+      (FullPartName "LD274-3.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\OPTO.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "frati")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\P1_Final\P1_2024_434D_Fraticiu_Vlad_SERS_N11_OrCad\Schematics\Schematic\stabilizator_ers_.dsn")
+      (Path "Design Resources"
+         "C:\P1_Final\P1_2024_434D_Fraticiu_Vlad_SERS_N11_OrCad\Schematics\Schematic\stabilizator_ers_.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Path "Logs")
+      (Select "Design Resources"
+         "C:\P1_Final\P1_2024_434D_Fraticiu_Vlad_SERS_N11_OrCad\Schematics\Schematic\stabilizator_ers_.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 681"))
+      (Tab 0))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1674 24 699"))
+      (Path
+         "C:\P1_Final\P1_2024_434D_Fraticiu_Vlad_SERS_N11_OrCad\Schematics\Schematic\Stabilizator_ERS_-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net")
+      (Scroll "0"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 699")
+        (Scroll "-333 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\P1_FINAL\P1_2024_434D_FRATICIU_VLAD_SERS_N11_ORCAD\SCHEMATICS\SCHEMATIC\STABILIZATOR_ERS_.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (LastUsedLibraryBrowseDirectory "C:\P1_backup\Footprint")
+  (ISPCBBASICLICENSE "false"))
