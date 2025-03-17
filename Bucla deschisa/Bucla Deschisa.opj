@@ -1,0 +1,165 @@
+(ExpressProject "Bucla Deschisa"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 P001 (4234998)  [9/4/2024]-[11/17/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "EDIF Netlist")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\bucla deschisa.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\bucla deschisa-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\bucla deschisa-pspicefiles\schematic1\bucla.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\bucla deschisa-pspicefiles\schematic1\bucla.sim"
+        (DisplayName "SCHEMATIC1-Bucla")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\proiect 1\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "EDIF Netlist")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (MPSSessionName "frati")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Proiect 1\P1_2024_434D_Fraticiu_Vlad_SERS_N11_OrCad\Schematics\Bucla deschisa\bucla deschisa.dsn")
+      (Path "Design Resources"
+         "C:\Proiect 1\P1_2024_434D_Fraticiu_Vlad_SERS_N11_OrCad\Schematics\Bucla deschisa\bucla deschisa.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "C:\Proiect 1\P1_2024_434D_Fraticiu_Vlad_SERS_N11_OrCad\Schematics\Bucla deschisa\bucla deschisa.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 720"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 761")
+        (Scroll "-333 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\PROIECT 1\P1_2024_434D_FRATICIU_VLAD_SERS_N11_ORCAD\SCHEMATICS\BUCLA DESCHISA\BUCLA DESCHISA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (PartMRUSelector
+    (IAC
+      (FullPartName "IAC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Proiect 1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib"))
